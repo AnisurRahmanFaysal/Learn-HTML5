@@ -9,9 +9,13 @@
                 width: 500px;
                 height: 350px;
                 border: 1px solid black;
+                border-collapse: collapse;
             }
             td,th{
-                align-items: center;
+                border: 2px solid black;
+            }
+            tr{
+                text-align: center;
             }
 
         </style>
@@ -19,7 +23,8 @@
     </head>
     <body>
         
-        <table border="2" width="300" height="200">
+        <table>
+            <caption> Table </caption>
 
             <thead>
                 <tr>
@@ -30,13 +35,13 @@
             </thead>
 
             <tbody>
-                <tr align="center">
+                <tr>
                     <td>101</td>
                     <td>Anis</td>
                     <td>4</td>
                 </tr>
 
-                <tr align="center">
+                <tr>
                     <td>102</td>
                     <td>Faysal</td>
                     <td>2</td>
