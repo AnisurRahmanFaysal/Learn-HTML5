@@ -1,0 +1,85 @@
+<!DOCETYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> form</title>
+	</head>
+	<body>
+		<h2>Registration form</h2>
+		<form>
+			<div>
+				<label for="fullname">Fullname:</label> 
+			<input type="text" name="fullname" id="fullname" required>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="email">Email:</label> 
+			<input type="email" name="email" id="email">
+			</div>
+
+			<br>
+
+			<div>
+				<label for="password">password:</label> 
+			<input type="password" name="password" id="password">
+			</div>
+			
+			<br>
+
+			<div>
+				<label for="dob">Date of barth:</label> 
+			<input type="date" name="dob" id="dob">
+			</div>
+			
+			<br>
+
+			<div>
+				<label for="photo">You:</label> 
+			<input type="file" name="photo" id="photo">
+			</div>
+			
+			<br>
+
+			<div>
+				<label for="gender">Gender:</label> 
+			<input type="radio" name="gender" id="gender" value="male">male
+			<input type="radio" name="gender" id="gender" value="female">female
+			</div>
+			
+			<br>
+
+			<div>
+				<label for="gender">Gender:</label> 
+			<input type="checkbox" name="rl" id="Muslim" value="Muslim" checked>Muslim
+			<input type="checkbox" name="rl" id="Hindu" value="Hindu">Hindu
+			</div>
+
+			<br>
+
+			<div>
+				<label for="department">Department</label>
+				<select name="department">
+					<option selected>SWE</option>
+					<option>CSE</option>
+					<option>MCT</option>
+				</select>
+			</div>
+
+			<br>
+
+			<div>
+				<label for="Comment"> Comment </label><br>
+				<textarea cols="5"rows="5"></textarea>
+			</div>
+
+			<div>
+				<input type="submit" value="Register">
+				<input type="reset" value="Refresh">
+			</div>
+
+
+		</form>
+	</body>
+</html>
